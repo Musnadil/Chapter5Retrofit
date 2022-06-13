@@ -33,7 +33,7 @@ class RegisterActivity : AppCompatActivity() {
             }
         }
     }
-
+// branch -2
     private fun registerAction(email : String, pass:String) {
         val request = RegisterRequest(email,pass,"admin")
 
